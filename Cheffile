@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'http://community.opscode.com/api/v1'
+
+cookbook 'ntp'
+cookbook 'nginx', :git => 'git://github.com/opscode-cookbooks/nginx.git'
+cookbook 'unicorn', :git => 'git://github.com/opscode-cookbooks/unicorn.git'
+cookbook 'database', :git => 'git://github.com/opscode-cookbooks/database.git'
